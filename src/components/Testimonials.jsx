@@ -28,7 +28,7 @@ const Testimonials = () => {
 
   return (
     <section id="testimonials" className="py-24 bg-gradient-to-br from-neutral-900 to-violet-950 relative">
-      <div className="absolute inset-0 bg-white bg-cover bg-center"></div>
+      <div className="absolute inset-0 bg-cover bg-center"></div>
       {/* bg-[url('https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg')] */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center">
