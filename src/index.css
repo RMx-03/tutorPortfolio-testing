@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply text-neutral-800 bg-gradient-to-br from-neutral-900 to-neutral-950;
+  }
+}
+
+@layer components {
+  .section-title {
+    @apply text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-white to-neutral-200 bg-clip-text text-transparent;
+  }
+  
+  .section-subtitle {
+    @apply mt-4 text-xl text-neutral-400;
+  }
+
+  .glass-card {
+    @apply backdrop-blur-lg bg-white/10 border border-white/20 rounded-2xl transition-all duration-300;
+  }
+
+  .nav-link {
+    @apply text-neutral-300 hover:text-white transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-white after:transition-all hover:after:w-full;
+  }
+
+  .btn-primary {
+    @apply px-8 py-3 rounded-full bg-gradient-to-r from-violet-600 to-violet-800 text-white font-medium hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-violet-500/25;
+  }
+
+  .stats-card {
+    @apply glass-card p-8 text-center hover:scale-105 transition-all duration-300;
+  }
+}
+
+@layer utilities {
+  .animate-spin-slow {
+    animation: spin 20s linear infinite;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-violet-400 to-violet-600 bg-clip-text text-transparent;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.shadow-soft {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
