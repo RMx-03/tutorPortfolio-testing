@@ -49,7 +49,7 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center">
           <div className="glass-card inline-block px-6 py-2 mb-6">
-            <p className="text-violet-400">Contact Us</p>
+            <p className="instrument-serif-regular-italic text-xl text-stone-200">Contact Us</p>
           </div>
           <h2 className="section-title mb-4">
             Get Started Today

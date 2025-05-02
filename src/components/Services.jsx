@@ -31,15 +31,15 @@ const Services = () => {
 
   return (
     <section id="services" className="py-24 bg-gradient-to-br from-neutral-900 to-violet-950 relative">
-      <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg')] bg-cover bg-center opacity-5"></div>
-      
+      <div className="absolute inset-0 bg-cover bg-center"></div>
+      {/* bg-[url('https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg')] */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="text-center">
           <div className="glass-card inline-block px-6 py-2 mb-6">
-            <p className="text-violet-400">Our Programs</p>
+            <p className="instrument-serif-regular-italic text-xl text-stone-200">Our Programs</p>
           </div>
           <h2 className="section-title mb-4">
-            Comprehensive Learning Solutions
+            <span className="instrument-serif-regular-italic">Comprehensive Learning</span> Solutions
           </h2>
           <p className="section-subtitle">
             Tailored tutoring programs for every academic level

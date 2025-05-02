@@ -14,23 +14,23 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[calc(100vh-80px)]">
           <div className="max-w-xl">
             <div className="glass-card inline-block px-6 py-2 mb-6">
-              <p className="text-violet-400">Transform Your Learning Journey</p>
+              <p className="instrument-serif-regular-italic text-xl text-stone-200">Transform Your Learning Journey</p>
             </div>
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
               <span className="inter-tight text-white">Unlock Your</span>
               <br />
-              <span className="instrument-serif-regular-italic bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">Academic Potential</span>
+              <span className="instrument-serif-regular bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text">Academic Potential</span>
             </h1>
             <p className="text-lg text-neutral-400 mb-8">
               Expert tutoring services tailored to your needs. Join thousands of successful students who have achieved academic excellence with our guidance.
             </p>
             <div className="flex gap-4">
               <a href="#contact">
-                <button className="btn-primary">
+                <button className="px-8 py-3 rounded-full border border-white/20 text-white hover:bg-white/10 transition-all duration-300">
                   Start Learning
                 </button>
               </a>
-              <a href="#services" className="px-8 py-3 rounded-full border border-white/20 text-white hover:bg-white/10 transition-all duration-300">
+              <a href="#services" className="btn-primary">
                 View Courses
               </a>
             </div>           
@@ -75,8 +75,8 @@ const Hero = () => {
       </div>
 
       {/* Background Elements */}
-      <div className="absolute top-20 right-20 w-32 h-32 rounded-full bg-violet-600/20 blur-3xl"></div>
-      <div className="absolute bottom-20 left-20 w-32 h-32 rounded-full bg-violet-400/20 blur-3xl"></div>
+      <div className="absolute top-20 right-20 w-64 h-64 rounded-full bg-green-400/40 blur-3xl"></div>
+      <div className="absolute bottom-20 left-20 w-64 h-64 rounded-full bg-yellow-400/40 blur-3xl"></div>
     </section>
   );
 };

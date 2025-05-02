@@ -10,7 +10,7 @@ const About = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="lg:text-center">
           <div className="glass-card inline-block px-6 py-2 mb-6">
-            <p className="text-violet-400">Why Choose Us?</p>
+            <p className="instrument-serif-regular-italic text-xl text-stone-200">Why Choose Us?</p>
           </div>
           <h2 className="inter-tight section-title mb-4">
             <span className="instrument-serif-regular-italic">Excellence</span> in Education

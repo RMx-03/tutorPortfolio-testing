@@ -26,7 +26,7 @@ const Navbar = () => {
             <a href="#about" className="nav-link">About</a>
             <a href="#services" className="nav-link">Services</a>
             <a href="#testimonials" className="nav-link">Testimonials</a>
-            <a href="#contact" className="bg-transparent border border-gray-500 text-white rounded-lg px-6 py-2.5 shadow-soft">
+            <a href="#contact" className="bg-transparent border border-gray-500 text-white rounded-3xl px-6 py-2.5 shadow-soft">
               Get Started
             </a>
           </div>
